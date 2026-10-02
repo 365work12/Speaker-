@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="15"
+                android:startY="10"
+                android:endX="95"
+                android:endY="100"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#123075" />
+                <item android:offset="0.45" android:color="#0E265D" />
+                <item android:offset="1.0" android:color="#071330" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Glowing sound field rings -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1E38BDF8"
+        android:strokeWidth="1.5"
+        android:pathData="M54,48 m-35,0 a35,35 0 1,1 70,0 a35,35 0 1,1 -70,0" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#12A855F7"
+        android:strokeWidth="1.5"
+        android:pathData="M54,48 m-45,0 a45,45 0 1,1 90,0 a45,45 0 1,1 -90,0" />
+</vector>
